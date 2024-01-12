@@ -125,3 +125,54 @@ main{
     line-height: 162%;
 }
 /* ====================TEAMS SECTIONS ENDED==================== */
+
+/* ====================FACTS SECTIONS START==================== */
+.facts .facts-title{
+    color: var(--Dark-01, #131313);
+    font-family: Work Sans;
+    font-size: 45px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+}
+.facts .facts-discription{
+    color: var(--Dark-03, #727272);
+    font-family: Work Sans;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 162%;
+}
+/* ====================FACTS SECTIONS ENDED==================== */
+
+/* ====================FEATURES FACTS START==================== */
+.facts .facts-card-container{
+    display: flex;
+    justify-content: space-around;
+}
+.facts .facts-card-container .card{
+    border-radius: 8px;
+    border: 1px solid #FF900E;
+    text-align: center;
+
+}
+
+.facts .facts-card-container .card .card-stats{
+    color: #424242;
+    text-align: center;
+    font-family: Work Sans;
+    font-size: 45px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: normal;
+}
+.facts .facts-card-container .card .card-title{
+    color: #727272;
+    font-family: Work Sans;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: normal;
+}
+
+/* ====================FEATURES FACTS ENDED==================== */
